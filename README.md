@@ -1,8 +1,12 @@
 # HydroinformaticsHomework
 Repo for Homework #1: Reproducible Time-Series Analysis, Temporal Scaling, and Visualization
 
+This project looks at 4 locations in Utah with USGS Streamflow data. Two locations are in headwater catchments, and two are downstream and below reservoirs and/or other diversions. Streamflow is compared using visual analysis via time series plots.
 
-## Site information:
+## What's here
+This repo includes a data/ directory with all necessary data, a notebooks/ directory with 3 .ipynb scripts (01 - initial data reading, visualization, and subsetting; 02 - data aggregation into weekly and monthly means; and 03 - comparative analysis of a wet year and a dry year), and a media folder with all saved images/figures.   
+
+## Site information
 **Headwater catchments:**\
 Site Number: 09217900\
 Site Name: BLACKS FORK NEAR ROBERTSON, WY\
@@ -22,3 +26,9 @@ Site Name: BEAR RIVER NEAR CORINNE, UT (near GSL)\
 Site Type: Stream
 
 Data from: https://apps.usgs.gov/nwismapper/
+
+## Site maps
+
+![plot1](media/usgs_1.png)
+
+![plot2](media/usgs_2.png)
